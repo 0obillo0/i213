@@ -8,7 +8,6 @@ int main()
 	scanf("%d", &n);
 	for(int i = 0; i < n; i++)
 	{
-		printf("k: ");
 		scanf("%d", &k);
 		if(k == 1)
 		{
@@ -20,8 +19,7 @@ int main()
 			if(list == -1)
 				printf("-1\n");
 			else{
-				printf("%d", a[list]);
-				list--;
+				printf("%d\n", a[list]);
 			}				
 		}else
 		{
